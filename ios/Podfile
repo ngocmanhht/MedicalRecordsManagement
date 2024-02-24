@@ -3,15 +3,15 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, min_ios_version_supported
 prepare_react_native_project!
-pod 'Firebase', :modular_headers => true
-pod 'FirebaseCoreInternal', :modular_headers => true
-pod 'GoogleUtilities', :modular_headers => true
-pod 'FirebaseCore', :modular_headers => true
-pod 'FirebaseCoreExtension', :modular_headers => true
-pod 'FirebaseFirestoreInternal', :modular_headers => true
-pod 'FirebaseAuthInterop', :modular_headers => true
-pod 'GTMSessionFetcher', :modular_headers => true
-pod 'FirebaseAppCheckInterop', :modular_headers => true
+# pod 'Firebase', :modular_headers => true
+# pod 'FirebaseCoreInternal', :modular_headers => true
+# pod 'GoogleUtilities', :modular_headers => true
+# pod 'FirebaseCore', :modular_headers => true
+# pod 'FirebaseCoreExtension', :modular_headers => true
+# pod 'FirebaseFirestoreInternal', :modular_headers => true
+# pod 'FirebaseAuthInterop', :modular_headers => true
+# pod 'GTMSessionFetcher', :modular_headers => true
+# pod 'FirebaseAppCheckInterop', :modular_headers => true
 
 
 # If you are using a `react-native-flipper` your iOS build will fail when `NO_FLIPPER=1` is set.
@@ -37,8 +37,10 @@ target 'MedicalRecordsManagement' do
 
   # Flags change depending on the env values.
   flags = get_default_flags()
-
+  use_frameworks! :linkage => :static
+  $RNFirebaseAsStaticFramework = true
   use_react_native!(
+   
     :path => config[:reactNativePath],
     # Hermes is now enabled by default. Disable by setting this flag to false.
     # Upcoming versions of React Native may rely on get_default_flags(), but
@@ -49,7 +51,7 @@ target 'MedicalRecordsManagement' do
     #
     # Note that if you have use_frameworks! enabled, Flipper will not work and
     # you should disable the next line.
-    :flipper_configuration => flipper_config,
+    # :flipper_configuration => flipper_config,
     # An absolute path to your application root.
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
