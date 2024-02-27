@@ -12,9 +12,13 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		36FC78BA93C04404BAAC9028 /* IstokWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56D0959D08DB45769FA14879 /* IstokWeb-Bold.ttf */; };
 		437C099E01EF8108F02E3D75 /* Pods_MedicalRecordsManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAA3AE0AEA43F745F054EEC /* Pods_MedicalRecordsManagement.framework */; };
 		4C155883253E6E60A3876CB8 /* Pods_MedicalRecordsManagement_MedicalRecordsManagementTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC9038881E9FDE62EE505F4 /* Pods_MedicalRecordsManagement_MedicalRecordsManagementTests.framework */; };
+		5394C8410FF84CBFA9474DF8 /* IstokWeb-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E04C1BEDBD14780BAA80FC5 /* IstokWeb-Italic.ttf */; };
+		662E95C634EC44099EC7809C /* IstokWeb-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6462FB4CDE7455994109FB0 /* IstokWeb-BoldItalic.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A923AE5560CF4B6C824FA977 /* IstokWeb-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8122F389F02C4A04B18D7170 /* IstokWeb-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +44,15 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MedicalRecordsManagement/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MedicalRecordsManagement/main.m; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-MedicalRecordsManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalRecordsManagement.debug.xcconfig"; path = "Target Support Files/Pods-MedicalRecordsManagement/Pods-MedicalRecordsManagement.debug.xcconfig"; sourceTree = "<group>"; };
+		3E04C1BEDBD14780BAA80FC5 /* IstokWeb-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IstokWeb-Italic.ttf"; path = "../src/assets/font/IstokWeb-Italic.ttf"; sourceTree = "<group>"; };
+		56D0959D08DB45769FA14879 /* IstokWeb-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IstokWeb-Bold.ttf"; path = "../src/assets/font/IstokWeb-Bold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-MedicalRecordsManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalRecordsManagement.release.xcconfig"; path = "Target Support Files/Pods-MedicalRecordsManagement/Pods-MedicalRecordsManagement.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-MedicalRecordsManagement-MedicalRecordsManagementTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalRecordsManagement-MedicalRecordsManagementTests.debug.xcconfig"; path = "Target Support Files/Pods-MedicalRecordsManagement-MedicalRecordsManagementTests/Pods-MedicalRecordsManagement-MedicalRecordsManagementTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8122F389F02C4A04B18D7170 /* IstokWeb-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IstokWeb-Regular.ttf"; path = "../src/assets/font/IstokWeb-Regular.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MedicalRecordsManagement/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-MedicalRecordsManagement-MedicalRecordsManagementTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalRecordsManagement-MedicalRecordsManagementTests.release.xcconfig"; path = "Target Support Files/Pods-MedicalRecordsManagement-MedicalRecordsManagementTests/Pods-MedicalRecordsManagement-MedicalRecordsManagementTests.release.xcconfig"; sourceTree = "<group>"; };
 		8BAA3AE0AEA43F745F054EEC /* Pods_MedicalRecordsManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicalRecordsManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6462FB4CDE7455994109FB0 /* IstokWeb-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IstokWeb-BoldItalic.ttf"; path = "../src/assets/font/IstokWeb-BoldItalic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -125,6 +133,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				8F826027B3BE427C8A927DF9 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -138,6 +147,18 @@
 				00E356EE1AD99517003FC87E /* MedicalRecordsManagementTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8F826027B3BE427C8A927DF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				56D0959D08DB45769FA14879 /* IstokWeb-Bold.ttf */,
+				D6462FB4CDE7455994109FB0 /* IstokWeb-BoldItalic.ttf */,
+				3E04C1BEDBD14780BAA80FC5 /* IstokWeb-Italic.ttf */,
+				8122F389F02C4A04B18D7170 /* IstokWeb-Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -247,6 +268,10 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				0BBBC50E2B8A49C8003E99C5 /* GoogleService-Info.plist in Resources */,
+				36FC78BA93C04404BAAC9028 /* IstokWeb-Bold.ttf in Resources */,
+				662E95C634EC44099EC7809C /* IstokWeb-BoldItalic.ttf in Resources */,
+				5394C8410FF84CBFA9474DF8 /* IstokWeb-Italic.ttf in Resources */,
+				A923AE5560CF4B6C824FA977 /* IstokWeb-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
